@@ -13,6 +13,21 @@ body {
     width: 90%;
     margin: 0 auto;
 }
+i.fa-solid.fa-minus.fa-style,
+i.fa-solid.fa-plus.fa-style {
+    font-size: 20px;
+    padding: 5px;
+    color: black;
+    border: 1px solid #ccc;
+    background-color: #eceaea;
+    border-radius: 999px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+i.fa-solid.fa-minus.fa-style:hover,
+i.fa-solid.fa-plus.fa-style:hover {
+    color: brown;
+}
 .hinhanh_sanpham {
     float: left;
     width: 30%;
