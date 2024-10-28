@@ -22,7 +22,7 @@
         <h4><?php echo $row_bv['tenbaiviet']  ?></h4>
         <img src="admincp/modules/quanlybaiviet/uploads/<?php echo $row_bv['hinhanh'] ?>" alt="">
         <p class="tomtat_product">
-            <span><?php echo $row_bv['tomtat'] ?></span>
+            <span><?php echo $row_bv['noidung'] ?></span>
         </p>
     </li>
     <?php

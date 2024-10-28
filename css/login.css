@@ -50,6 +50,7 @@
     background: #f28902;
 }
 .chuyendoi a {
+    font-size: 14px;
     display: block;
     width: 95%;
     text-decoration: none;

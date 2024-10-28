@@ -21,7 +21,6 @@
     }
 ?>
 
-<p>Đăng ký thành viên</p>
 
 <div class="wrapper-login">
     <form method="POST" action="" id="form-login">
@@ -41,9 +40,9 @@
         <div class="form-group">
             <input type="password" class="form-input" name="matkhau" placeholder="Mật khẩu">
         </div>
-        <div class="form-group">
-            <input type="submit" class="form-submit" name="dangky" value="Đăng ký">
-        </div>
+
+        <input type="submit" class="form-submit" name="dangky" value="Đăng ký">
+
         <div class="chuyendoi">
             <a class="form-submit" href="index.php?quanly=dangnhap">Đăng nhập</a>
         </div>

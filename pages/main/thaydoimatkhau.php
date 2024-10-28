@@ -16,25 +16,21 @@
     }
 ?>
 
-<form method="POST" action="" autocomplete="off">
-    <table border="1" style="text-align:center; border-collapse: collapse">
-        <tr>
-            <td colspan="2">Đổi mật khẩu</td>
-        </tr>
-        <tr>
-            <td>Tài khoản</td>
-            <td><input type="text" name="email"></td>
-        </tr>
-        <tr>
-            <td>Mật khẩu cũ</td>
-            <td><input type="password" name="password_cu"></td>
-        </tr>
-        <tr>
-            <td>Mật khẩu mới</td>
-            <td><input type="password" name="password_moi"></td>
-        </tr>
-        <tr>
-            <td colspan="2"><input type="submit" name="doimatkhau" value="Đổi mật khẩu"></td>
-        </tr>
-    </table>
-</form>
+
+<div class="wrapper-login">
+    <form method="POST" action="" autocomplete="off" id="form-login">
+        <h1 class="form-heading">Đổi mật khẩu</h1>
+        <div class="form-group">
+            <input class="form-input" type="text" name="email" placeholder="Tài khoản" id="email">
+        </div>
+        <div class="form-group">
+            <input class="form-input" type="password" name="password_cu" placeholder="Mật khẩu cũ">
+        </div>
+        <div class="form-group">
+            <input class="form-input" type="password" name="password_moi" placeholder="Mật khẩu mới">
+        </div>
+
+        <input type="submit" class="form-submit" name="doimatkhau" value="Đổi mật khẩu">
+
+    </form>
+</div>
