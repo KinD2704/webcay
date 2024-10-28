@@ -1,15 +1,30 @@
 <?php
     // session_start();
 ?>
+<style>
+a.capnhat {
+    text-decoration: none;
+    color: white;
+    border: 1px solid f28902;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #f28902;
+    transition: 0.5s ease-in-out;
+}
+
+a.capnhat:hover {
+    background: burlywood;
+    color: red;
+}
+</style>
 <p>Giỏ hàng
     <?php
         if(isset($_SESSION['dangky'])){
             echo "<br/>";
             echo "Xin chào ".'<span style="color:red">'. $_SESSION['dangky'].'</span>';
-            echo $_SESSION['id_khachhang'];
+            // echo $_SESSION['id_khachhang'];
         }
     ?>
-
 </p>
 
 <?php
@@ -56,7 +71,7 @@
         </td>
         <td><?php echo number_format($cart_item['giasp'],0,',','.').' vnđ';  ?></td>
         <td><?php echo number_format($thanhtien,0,',','.').' vnđ';  ?></td>
-        <td><a href="pages/main/themgiohang.php?xoa=<?php echo $cart_item['id'] ?>">Xoá</a></td>
+        <td><a class="capnhat" href="pages/main/themgiohang.php?xoa=<?php echo $cart_item['id'] ?>">Xoá</a></td>
     </tr>
     <?php
         }
@@ -65,16 +80,16 @@
     <tr>
         <td colspan="8">
             <p style="float: left;">Thành tiền: <?php echo number_format($tongtien,0,',','.')." vnđ" ?> </p>
-            <p style="float: right;"><a href="pages/main/themgiohang.php?xoatatca=1">Xoá tất cả</a></p>
+            <p style="float: right;"><a class="capnhat" href="pages/main/themgiohang.php?xoatatca=1">Xoá tất cả</a></p>
             <div style="clear: both;"></div>
             <?php
                 if(isset($_SESSION['dangky'])){
             ?>
-            <p> <a href="pages/main/thanhtoan.php">Đặt hàng</a> </p>
+            <p> <a class="capnhat" href="pages/main/thanhtoan.php">Đặt hàng</a> </p>
             <?php
                 } else{
             ?>
-            <p><a href="index.php?quanly=dangky">Đăng ký đặt hàng</a></p>
+            <p><a class="capnhat" href="index.php?quanly=dangky">Đăng ký đặt hàng</a></p>
             <?php
             }
             ?>

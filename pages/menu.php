@@ -23,7 +23,7 @@
             }
         ?>
         <li><a href="index.php?quanly=giohang&id=1">Giỏ hàng</a></li>
-        <li><a href="index.php?quanly=tintuc&id=1">Tin tức</a></li>
+        <li><a href="index.php?quanly=tintuc&id=1">Ý nghĩa cây</a></li>
         <li><a href="index.php?quanly=lienhe&id=1">Liên hệ</a></li>
 
         <?php
@@ -31,7 +31,7 @@
                 
         ?>
         <li><a href="index.php?dangxuat=1">Đăng xuất</a></li>
-
+        <li><a href="index.php?quanly=thaydoimatkhau">Đổi mật khẩu</a></li>
         <?php
             }else{
         ?>
@@ -45,7 +45,7 @@
     <p>
     <form action="index.php?quanly=timkiem" method="POST">
         <input type="text" placeholder="Tìm kiếm sản phẩm..." name="tukhoa">
-        <input type="submit" name="timkiem" value="Tìm kiếm">
+        <input type="submit" class="btn-timkiem" name="timkiem" value="Tìm kiếm">
     </form>
     </p>
 </div>

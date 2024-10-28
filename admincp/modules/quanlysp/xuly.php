@@ -27,7 +27,8 @@
         
     } elseif(isset($_POST['suasanpham'])){
         // sua
-        if($hinhanh!=""){
+        // if($hinhanh!=""){
+        if(!empty($_FILES['hinhanh']['name'])){
             // tải hình ảnh mới
             move_uploaded_file($hinhanh_tmp,'uploads/'.$hinhanh);
             // xoa hinh anh cu

@@ -1,1 +1,1 @@
-<p>footer admincp</p>
+<p>Copyright &copy; by KinD 2024 </p>
