@@ -20,8 +20,15 @@
     </span>
 </h3>
 <style>
-.tomtat_product span {
+.tomtat_product {
     text-align: center;
+    display: -webkit-box;
+    /* Hiện dấu 3 chấm ở dòng số n theo mong muốn */
+    -webkit-line-clamp: 3;
+    /* xét theo chiều nào */
+    /* Ví dụ đây là chiều dọc */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 </style>
 <ul class="product_list">

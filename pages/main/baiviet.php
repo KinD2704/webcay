@@ -11,9 +11,11 @@
     $row_bv_title = mysqli_fetch_array($query_bv);
 
 ?>
+
 <h3> Ý nghĩa:
     <span style="text-align: center;"><?php echo $row_bv_title['tenbaiviet'] ?></span>
 </h3>
+
 <ul class="baiviet">
     <?php
         while($row_bv = mysqli_fetch_array($query_bv_all)){
