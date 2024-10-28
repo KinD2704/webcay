@@ -15,11 +15,10 @@
             $_SESSION['dangky'] = $tenkhachhang;
             // dki tai khoan moi lay id cua khach hang
             $_SESSION['id_khachhang'] = mysqli_insert_id($mysqli);
+            $_SESSION['email'] = $email;
             header('Location:index.php?quanly=giohang');
         }
-        
     }
-
 ?>
 
 <p>Đăng ký thành viên</p>

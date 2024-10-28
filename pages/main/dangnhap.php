@@ -10,6 +10,7 @@
             $row_data = mysqli_fetch_array($row);
             $_SESSION['dangky'] = $row_data['tenkhachhang'];
             $_SESSION['id_khachhang'] = $row_data['id_dangky'];
+            $_SESSION['email'] = $row_data['email'];
             header("Location:index.php?quanly=giohang");
         } else{
             echo '<p style="color:red; text-align:center">Tài khoản hoặc mật khẩu sai, vui lòng nhập lại!</p>';
