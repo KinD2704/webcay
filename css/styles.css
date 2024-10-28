@@ -12,6 +12,15 @@ body {
     width: 90%;
     margin: 0 auto;
 }
+.page_number {
+    transition: 0.5s ease-in-out;
+}
+.page_number:hover {
+    background-color: #f28902;
+}
+.page_number:hover a {
+    color: white;
+}
 i.fa-solid.fa-minus.fa-style,
 i.fa-solid.fa-plus.fa-style {
     font-size: 20px;

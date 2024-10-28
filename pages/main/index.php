@@ -69,7 +69,7 @@ ul.list_trang li a {
     <?php
         for($i=1;$i<=$trang;$i++){
     ?>
-    <li <?php if($i==$page){echo 'style="background: brown;"';}else{echo '';} ?>>
+    <li class="page_number" <?php if($i==$page){echo 'style="background: #f28902;"';}else{echo '';} ?>>
         <a href="index.php?trang=<?php echo $i ?>">
             <?php echo $i ?>
         </a>

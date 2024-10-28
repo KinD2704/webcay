@@ -18,44 +18,18 @@
     }
 ?>
 
-
-<style>
-body {
-    background: #f2f2f2;
-}
-
-.wrapper-login {
-    width: 50%;
-    margin: 0 auto;
-}
-
-table.table-login {
-    width: 100%;
-}
-
-table.table-login tr td {
-    padding: 5px;
-}
-</style>
-
 <div class="wrapper-login">
-    <form method="POST" action="" autocomplete="off">
-        <table border="1" style="text-align:center; border-collapse: collapse">
-            <tr>
-                <td colspan="2">Đăng nhập</td>
-            </tr>
-            <tr>
-                <td>Tài khoản</td>
-                <td><input type="email" size="50" name="username" placeholder="user@gmail.com"></td>
-            </tr>
-            <tr>
-                <td>Mật khẩu</td>
-                <td><input type="password" size="50" name="password" placeholder="Mật khẩu"></td>
-            </tr>
-            <tr>
-                <td colspan="2"><input type="submit" name="dangnhap" value="Đăng nhập"></td>
-            </tr>
-        </table>
+    <form method="POST" action="" autocomplete="off" id="form-login">
+        <h1 class="form-heading">Đăng nhập</h1>
+        <div class="form-group">
+            <input class="form-input" type="email" name="username" placeholder="Tên đăng nhập">
+        </div>
+        <div class="form-group">
+            <input class="form-input" type="password" name="password" placeholder="Mật khẩu">
+        </div>
+
+        <input type="submit" name="dangnhap" class="form-submit" value="Đăng nhập">
+
     </form>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>

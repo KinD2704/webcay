@@ -22,41 +22,31 @@
 ?>
 
 <p>Đăng ký thành viên</p>
-<style>
-table.dangky tr td {
-    padding: 5px;
-}
-</style>
-<form method="POST" action="">
-    <table border="1" width="50%" style="border-collapse: collapse;" class="dangky">
 
-        <tr>
-            <td>Họ và tên</td>
-            <td><input type="text" size="50" name="hovaten"></td>
-        </tr>
-        <tr>
-            <td>Email</td>
-            <td><input type="email" size="50" name="email"></td>
-        </tr>
-        <tr>
-            <td>Điện thoại</td>
-            <td><input type="text" size="50" name="dienthoai"></td>
-        </tr>
-        <tr>
-            <td>Địa chỉ</td>
-            <td><input type="text" size="50" name="diachi"></td>
-        </tr>
-        <tr>
-            <td>Mật khẩu</td>
-            <td><input type="password" size="50" name="matkhau"></td>
-        </tr>
-        <tr>
-            <td><input type="submit" name="dangky" value="Đăng ký"></td>
-            <td>
-                <a href="index.php?quanly=dangnhap">Đăng nhập</a>
-            </td>
-        </tr>
+<div class="wrapper-login">
+    <form method="POST" action="" id="form-login">
+        <h1 class="form-heading">Đăng ký</h1>
+        <div class="form-group">
+            <input class="form-input" type="text" name="hovaten" placeholder="Họ và tên">
+        </div>
+        <div class="form-group">
+            <input type="email" class="form-input" name="email" placeholder="Email">
+        </div>
+        <div class="form-group">
+            <input type="text" class="form-input" name="dienthoai" placeholder="Số điện thoại">
+        </div>
+        <div class="form-group">
+            <input type="text" class="form-input" name="diachi" placeholder="Địa chỉ">
+        </div>
+        <div class="form-group">
+            <input type="password" class="form-input" name="matkhau" placeholder="Mật khẩu">
+        </div>
+        <div class="form-group">
+            <input type="submit" class="form-submit" name="dangky" value="Đăng ký">
+        </div>
+        <div class="chuyendoi">
+            <a class="form-submit" href="index.php?quanly=dangnhap">Đăng nhập</a>
+        </div>
 
-
-    </table>
-</form>
+    </form>
+</div>

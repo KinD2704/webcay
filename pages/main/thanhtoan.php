@@ -27,10 +27,9 @@
         foreach($_SESSION['cart'] as $key => $value){
             $noidung.=
             "<ul style='border:1px solid blue; margin: 10px'>
-                <li>".$value['tensanpham']."</li>
-                <li>".$value['masp']."</li>
-                <li>".number_format($value['soluong'],0,',','.')."</li>
-                <li>".$value['soluong']."</li>
+                <li>Tên sản phẩm: ".$value['tensanpham']."</li>
+                <li>Mã sản phẩm: ".$value['masp']."</li>
+                <li>Số lượng: ".$value['soluong']."</li>
             </ul>";
         }
 
