@@ -1,4 +1,4 @@
-<p>Thêm danh mục bài viết</p>
+<h2>Thêm danh mục bài viết</h2>
 <table border="1" width="50%" style="border-collapse: collapse;">
     <form method="POST" action="modules/quanlydanhmucbaiviet/xuly.php">
         <tr>

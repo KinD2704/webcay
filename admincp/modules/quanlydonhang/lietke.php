@@ -5,9 +5,9 @@
     $query_lietke_dh = mysqli_query($mysqli, $sql_lietke_dh);
 ?>
 
-<p>Liệt kê đơn hàng</p>
+<h2>Liệt kê đơn hàng</h2>
 
-<table style="width: 100%; border-collapse: collapse" border="1">
+<table style="width: 100%; border-collapse: collapse" border="1" class="table_lietke">
     <tr>
         <th>Id</th>
         <th>Mã đơn hàng</th>

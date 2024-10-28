@@ -1,3 +1,6 @@
+.admin-menu {
+    background-color: #3daa12;
+}
 ul.admincp_list {
     margin: 0;
     padding: 0;
@@ -6,6 +9,18 @@ ul.admincp_list {
 ul.admincp_list li {
     float: left;
     margin: 5px;
+    padding: 10px;
+    transition: 0.5s ease-in-out;
+}
+.admincp_list li a {
+    text-decoration: none;
+    color: black;
+}
+.admincp_list li:hover {
+    background: #247d09;
+}
+.admincp_list li:hover a {
+    color: white;
 }
 .clear {
     clear: both;
@@ -20,4 +35,11 @@ h3.title_admin {
     height: auto;
     width: 90%;
     margin: 0 auto;
+    padding: 15px;
+}
+.footer p {
+    text-align: center;
+}
+.table_lietke {
+    text-align: center;
 }

@@ -5,7 +5,7 @@
 
 ?>
 
-<p>Sửa danh mục sp</p>
+<h2>Sửa danh mục sp</h2>
 <table border="1" width="50%" style="border-collapse: collapse;">
     <form method="POST" action="modules/quanlydanhmucsp/xuly.php?iddanhmuc=<?php echo $_GET['iddanhmuc'] ?>">
         <?php

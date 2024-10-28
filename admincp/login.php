@@ -26,17 +26,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Đăng nhập ADMINCP</title>
+    <link rel="stylesheet" href="css/login.css">
 </head>
 
 <body>
     <style>
     body {
         background: #f2f2f2;
-    }
-
-    .wrapper-login {
-        width: 20%;
-        margin: 0 auto;
     }
 
     table.table-login {
@@ -49,23 +45,20 @@
     </style>
 
     <div class="wrapper-login">
-        <form method="POST" action="" autocomplete="off">
-            <table border="1" style="text-align:center; border-collapse: collapse">
-                <tr>
-                    <td colspan="2">Đăng nhập Admin</td>
-                </tr>
-                <tr>
-                    <td>Tài khoản</td>
-                    <td><input type="text" name="username"></td>
-                </tr>
-                <tr>
-                    <td>Mật khẩu</td>
-                    <td><input type="password" name="password"></td>
-                </tr>
-                <tr>
-                    <td colspan="2"><input type="submit" name="dangnhap" value="Đăng nhập"></td>
-                </tr>
-            </table>
+        <form method="POST" action="" autocomplete="off" id="form-login">
+
+            <h1 class="form-heading">Đăng Nhập ADMINCP</h1>
+
+            <div class="form-group">
+                <input class="form-input" type="text" name="username" placeholder="Tên đăng nhập">
+            </div>
+            <div class="form-group">
+                <input class="form-input" type="text" name="password" placeholder="Họ và tên">
+            </div>
+
+            <input type="submit" class="form-submit" name="dangnhap" value="Đăng nhập">
+
+
         </form>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>

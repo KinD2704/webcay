@@ -1,4 +1,4 @@
-<p>Xem đơn hàng</p>
+<h2>Xem đơn hàng</h2>
 <?php
     $code = $_GET['code'];
     $sql_lietke_dh = "SELECT * FROM tbl_cart_details,tbl_sanpham

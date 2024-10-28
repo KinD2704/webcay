@@ -5,9 +5,9 @@
 
 ?>
 
-<p>Liệt kê danh mục sp</p>
+<h2>Liệt kê danh mục sp</h2>
 
-<table style="width: 100%; border-collapse: collapse" border="1">
+<table style="width: 100%; border-collapse: collapse" border="1" class="table_lietke">
     <tr>
         <th>Id</th>
         <th>Tên danh mục</th>

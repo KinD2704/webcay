@@ -1,1 +1,1 @@
-<p>welcome to dashboard</p>
+<h2>welcome to dashboard</h2>

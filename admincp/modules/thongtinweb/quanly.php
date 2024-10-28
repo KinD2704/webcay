@@ -2,7 +2,7 @@
     $sql_lh = "SELECT * FROM tbl_lienhe WHERE id=1 ";
     $query_lh = mysqli_query($mysqli, $sql_lh);
 ?>
-<p>Quản lý thông tin website</p>
+<h2>Quản lý thông tin website</h2>
 
 <table border="1" width="100%" style="border-collapse: collapse;">
     <?php

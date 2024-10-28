@@ -5,7 +5,7 @@
 
 ?>
 
-<p>Sửa sản phẩm</p>
+<h2>Sửa sản phẩm</h2>
 
 <table border="1" width="100%" style="border-collapse: collapse;">
     <?php

@@ -7,7 +7,7 @@
 
 ?>
 <p>
-    <a href="index.php?dangxuat=1">Đăng xuất:
+    <a style="text-decoration: none; color: black" href="index.php?dangxuat=1">Đăng xuất:
         <?php
             if(isset($_SESSION['dangnhap'])){
                 echo $_SESSION['dangnhap'];

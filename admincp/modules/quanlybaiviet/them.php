@@ -1,4 +1,4 @@
-<p>Thêm bài viết</p>
+<h2>Thêm bài viết</h2>
 <table border="1" width="100%" style="border-collapse: collapse;">
     <form method="POST" action="modules/quanlybaiviet/xuly.php" enctype="multipart/form-data">
         <tr>
