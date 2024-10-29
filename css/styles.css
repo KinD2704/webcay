@@ -181,14 +181,27 @@ ul.product_list li {
     margin: 4px;
     float: left;
     background: #f0f0f0;
+    overflow: hidden;
     height: auto;
 }
 ul.product_list li a {
     text-decoration: none;
 }
+
+ul.product_list li:hover .title_product {
+    transition: 0.5s ease-in-out;
+}
+ul.product_list li:hover .title_product {
+    color: #f28902;
+}
 ul.product_list li img {
-    width: 100%;
     height: 175px;
+    transition: 0.5s ease-in-out;
+    display: block;
+    width: 100%;
+}
+ul.product_list li:hover img {
+    transform: scale(1.1);
 }
 p.title_product {
     text-align: center;

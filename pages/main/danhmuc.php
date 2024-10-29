@@ -22,7 +22,7 @@
     <?php
         while($row_pro = mysqli_fetch_array($query_pro)){
     ?>
-    <li>
+    <li class="product_img">
         <a href="index.php?quanly=sanpham&id=<?php echo $row_pro['id_sanpham'] ?>">
             <img src="admincp/modules/quanlysp/uploads/<?php echo $row_pro['hinhanh'] ?>" alt="">
             <p class="title_product"> <?php echo $row_pro['tensanpham'] ?></p>
